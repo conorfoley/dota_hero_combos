@@ -1,0 +1,12 @@
+{application,dota_hero_combos,
+             [{description,"dota_hero_combos"},
+              {modules,['Elixir.DotaHeroCombos','Elixir.DotaHeroCombos.HTTP',
+                        'Elixir.DotaHeroCombos.Resource',
+                        'Elixir.DotaHeroCombos.Resource.Error.GET',
+                        'Elixir.DotaHeroCombos.Resource.GET',
+                        'Elixir.DotaHeroCombos.Router',
+                        'Elixir.DotaHeroCombos.Supervisor']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.DotaHeroCombos',[]}},
+              {applications,[kernel,stdlib,elixir,cowboy,logger,rl]}]}.
